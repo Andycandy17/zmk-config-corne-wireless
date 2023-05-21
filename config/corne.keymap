@@ -13,8 +13,8 @@
         compatible = "zmk,combos";
 
         new_combo {
-            bindings = <&trans>;
-            key-positions = <>;
+            bindings = <&kp ESC>;
+            key-positions = <2 3>;
         };
     };
 
@@ -93,7 +93,7 @@
             bindings = <
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
 &trans  &Switch_Windows        &trans        &trans        &trans        &trans      &kp K_COPY          &trans        &trans        &trans   &kp K_PASTE  &kp SLASH
-&trans           &trans        &trans        &trans        &trans        &trans       &kp UNDER  &kp LEFT_ARROW      &kp DOWN  &kp UP_ARROW     &kp RIGHT  &kp EQUAL
+&trans           &trans        &trans        &trans        &trans        &trans          &trans  &kp LEFT_ARROW      &kp DOWN  &kp UP_ARROW     &kp RIGHT  &kp EQUAL
                                              &trans        &trans        &trans          &trans          &trans        &trans
             >;
         };
